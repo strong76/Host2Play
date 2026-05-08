@@ -2,7 +2,6 @@ name: Host2Play 续期
 
 on:
   schedule:
-    - cron: '0 0 * * *'    # 触发点: 00:00, 11:00, 22:00
     - cron: '0 12 * * *'      # 触发点: 05:30, 16:30
   workflow_dispatch:
 
